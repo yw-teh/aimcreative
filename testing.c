@@ -1,2 +1,2 @@
 //this is a testing c file for github repo
-//this is second ccommit
+//this is second commit
