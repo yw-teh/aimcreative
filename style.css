@@ -192,6 +192,19 @@ select {
 
 .aboutus-description {
     color: rgb(5, 255, 207);
-    font-size: 15px;
+    font-size: 20px;
     margin: 0px;
+    font-family: 'Hanalei Fill', cursive;
+}
+
+ul {}
+
+ul li {
+    display: inline-block
+}
+
+ul li a {
+    display: block;
+    text-decoration: none;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
