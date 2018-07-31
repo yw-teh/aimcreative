@@ -177,34 +177,50 @@ select {
 
 /*top header*/
 
-.aimcreative {
-    color: darkcyan;
-    font-size: 30px;
-    margin: 0px;
+/*my code start here*/
+
+body {
+    background-color: grey;
 }
 
-.aboutus {
-    color: rgb(5, 207, 207);
-    font-size: 30px;
-    margin: 0px;
-    letter-spacing: 2px;
+.wrapper {
+    margin: 0 auto;
+    width: 1000px;
 }
 
-.aboutus-description {
-    color: rgb(5, 255, 207);
-    font-size: 20px;
-    margin: 0px;
-    font-family: 'Hanalei Fill', cursive;
+nav {
+    width: 100%;
+    height: 100px;
+    background-color: white;
 }
 
 ul {}
 
 ul li {
-    display: inline-block
+    display: inline-block;
+    line-height: 100px;
+    float: left;
 }
 
 ul li a {
     display: block;
     text-decoration: none;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding: 0% 20px;
+}
+
+ul li a:hover {
+    color: aqua;
+}
+
+.img-logo {
+    width: 100px;
+    height: 100px;
+    background-image: url(img/AIM-Logo.PNG);
+    background-size: contain;
+    background-position: center;
+}
+
+.img-logo:hover {
+    background-size: 200%;
 }
