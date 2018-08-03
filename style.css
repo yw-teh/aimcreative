@@ -177,51 +177,111 @@ select {
 
 /*end of reset styling*/
 
-/*code for mobile*/
+/*code for mobile header*/
 
 * {
     text-decoration: none;
 }
 
-body {
-    background-color: lightgray
-}
-
 header {
     background-color: #fff;
     width: 100%;
-    height: 100%;
+    height: 180px;
 }
 
-header nav {}
-
-header nav ul {}
-
-header nav ul li {}
-
-a .header-project {
+header .header-home {
     font-family: 'Noto Sans', sans-serif;
-    font-size: 20px;
+    font-size: 52px;
     font-weight: 900;
     color: #111;
-    display: inline;
+    display: block;
     margin: 0 auto;
     text-align: center;
-    padding: 5px 5px;
+    padding: 20px 0;
 }
 
-a .header-home {
+header nav ul {
+    display: block;
+    margin: 0 auto;
+    width: fit-content;
+    padding-top: 15px;
+}
+
+header nav ul li {
+    display: inline-block;
+    float: left;
+    list-style: none;
+    padding: 0 50px;
+}
+
+header nav ul li a {
     font-family: 'Noto Sans', sans-serif;
-    font-size: 64px;
-    font-weight: 900;
+    font-size: 38px;
+    font-weight: 500;
     color: #111;
-    display: inline;
-    margin: 0 auto;
-    text-align: center;
-    padding: 15px 0;
+    text-transform: uppercase;
 }
 
-a .header-menu {}
+header .header-cases {
+    display: none;
+}
+
+/*code for mobile main*/
+
+.index-banner {
+    width: 100%;
+    height: calc(100vh - 180px);
+    background-image: url('img/AIM\ Profile-01.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: table;
+}
+
+.vertical-center {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.index-banner h2 {
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 90px;
+    font-weight: 800;
+    color: #FFF;
+    text-transform: uppercase;
+    text-align: center;
+    text-shadow: 2px 2px 8px #111;
+    line-height: 120px;
+}
+
+.index-banner h1 {
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 40px;
+    font-weight: 300;
+    font-style: italic;
+    color: #FFF;
+    text-transform: uppercase;
+    text-align: center;
+    text-shadow: 2px 2px 8px #111;
+    line-height: 50px;
+}
+
+.index-cases div {
+    margin: 30px 30px 0;
+    width: calc(100% - 60px);
+    height: 150px;
+    background-color: #f2f2f2;
+}
+
+.index-cases div h3 {
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 40px;
+    font-weight: 500;
+    line-height: 150px;
+    color: #111;
+    text-transform: uppercase;
+    text-align: center;
+}
 
 /*code for table*/
 
