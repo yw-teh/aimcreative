@@ -223,7 +223,7 @@ nav ul {
 }
 
 nav ul li {
-    display: inline-block;
+    display: block;
     float: left;
 }
 
