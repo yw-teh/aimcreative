@@ -1,9 +1,6 @@
 /* 
-html5doctor.com Reset Stylesheet
-v1.6.1
-Last Updated: 2010-09-17
-Author: Richard Clark - http://richclarkdesign.com 
-Twitter: @rich_clark
+Last Updated: 2020-02-17
+Author: Yw Teh
 */
 
 html,
@@ -176,8 +173,10 @@ select {
 }
 
 /*end of reset styling*/
-
-/*code for mobile header*/
+/*------------------------------------------------------------------------------------------------*/
+/*------------------------------------------------------------------------------------------------*/
+/*------------------------------------------------------------------------------------------------*/
+/*code for mobile*/
 
 * {
     text-decoration: none;
@@ -198,10 +197,10 @@ body {
     height: 100vh;
     font-family: 'Nunito', sans-serif;
     font-weight: 600;
-    background: url(img/AIM\ Profile-02.jpg);
+    /* background: url(img/AIM\ Profile-02.jpg);
     background-position: 50% 5%;
     background-size: contain;
-    background-repeat: no-repeat;
+    background-repeat: no-repeat; */
 }
 
 nav {
@@ -224,7 +223,7 @@ nav ul {
 
 nav ul li {
     display: inline-block;
-    float: left;
+    /*float: left;*/
 }
 
 nav ul li:not(:first-child) {
@@ -338,6 +337,37 @@ nav ul li a {
     margin-top: 4px;
 }
 
+.section_whoweare{
+    padding: 8px;
+    height: 480px;
+    width: 100%;
+    background-color: rgb(156, 11, 214);
+}
+
+.section_whatwedo{
+    padding: 8px;
+    height: 480px;
+    width: 100%;
+    background-color: rgb(47, 240, 143);
+}
+
+.section_projects{
+    padding: 8px;
+    height: 480px;
+    width: 100%;
+    background-color: rgb(11, 58, 214);
+}
+
+.section_contacts{
+    padding: 8px;
+    height: 480px;
+    width: 100%;
+    background-color: rgb(214, 11, 163);
+}
+/*end of mobile*/
+/*------------------------------------------------------------------------------------------------*/
+/*------------------------------------------------------------------------------------------------*/
+/*------------------------------------------------------------------------------------------------*/
 /*code for pc*/
 
 @media only screen and (min-width:864px) {
@@ -458,3 +488,8 @@ nav ul li a {
 .hidden {
     display: none;
 }
+
+/*end of pc*/
+/*------------------------------------------------------------------------------------------------*/
+/*------------------------------------------------------------------------------------------------*/
+/*------------------------------------------------------------------------------------------------*/
