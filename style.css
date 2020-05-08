@@ -200,33 +200,34 @@ body {
     font-weight: 600;
 }
 
-nav {
-    padding: 8px;
-}
 
 .section_whoweare{
-    height: 1452px;
-    width: 100vw;
-    background-image: url(img/Section_whoweare.png); 
-    background-size: 100% 100%;
+    background-image: url(img/header.png); 
+    margin-top: -1px; 
 }
 
-.section_whatwedo{
-    height : 2093px;
-    width: 100vw;
+.logo{
+    height: 8vh;
+    width: 25vw;
+    padding: 2% 0px 0px 4%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: left center;
+}
+
+.section_whyus{
+    background-image: url(img/why_us.png);
+    margin-top: -1px; 
+}
+
+.section_projects{
     background-image: url(img/Section_whatwedo.png);
-    background-size: 100% 100%;
+    margin-top: -1px; 
 }
-
-/* .section_projects{
-
-} */
 
 .section_contacts{
-    height : 480px;
-    width: 100vw;
     background-image: url(img/Section_contatus.png);
-    background-size: cover;
+    margin-top: -1px; 
 }
 /*end of mobile*/
 /*------------------------------------------------------------------------------------------------*/
@@ -235,33 +236,46 @@ nav {
 /*code for pc*/
 
 @media only screen and (min-width:864px) {
-    .logo {
-        padding: 0;
-    }
     .section_whoweare{
-        height: 1452px;
+        height: 53.3vw;
+        width:100vw;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: bottom left;
+    }
+
+    .logo {
+        height: 6.401vw;
+        width: 25vw;
+        padding: 2% 0px 0px 5%;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: bottom left;
+    }
+
+    .section_whyus{
+        height : 44.33vw;
         width: 100vw;
-        margin: 0; 
-        background-image: url(img/Section_whoweare.png);
         background-size: 100% 100%;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: bottom left;
     }
     
-    .section_whatwedo{
-        height : 2093px;
-        width: 100vw;
-        background-image: url(img/Section_whatwedo.png);
-        background-size: 100% 100%;
-    }
-/*     
     .section_projects{
-    
-    } */
+        height : 139.44vw;
+        width: 100vw;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: bottom left;
+    }
     
     .section_contacts{
-        height : 480px;
+        height : 31.978vw;
         width: 100vw;
-        background-image: url(img/Section_contatus.png);
-        background-size: 100% 100%;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: bottom left;
     }
 }
 
