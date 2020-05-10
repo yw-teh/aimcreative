@@ -218,7 +218,6 @@ word-spacing: 10px;
 }
 
 .common_text h1{
-/* font-family: avenir; */
 color: #000000;
 text-transform: none;
 font-weight: 1;
@@ -234,6 +233,11 @@ nav{
     position: fixed;
     width: 100vw;
     line-height: 60px;
+}
+/* background color shown when scroll */
+nav.background{
+background: rgba(43, 43, 63, .9);
+/* background: #2b2b3F; */
 }
 
 .section_whoweare{
@@ -269,7 +273,7 @@ nav{
     }
     
     .nav_bar{
-    height: 10vw;
+    height: 7vw;
     display:flex;
     flex-direction: row;
     align-items: center;
