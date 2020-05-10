@@ -197,7 +197,7 @@ html {
     padding: 0;
     width: 100vw;
     height: 100vh;
-    background-color: #111;
+    background-color: #ff9;
 }
 
 body {
@@ -224,30 +224,21 @@ text-transform: none;
 font-weight: 1;
 }
 
-.section_whoweare{
-    background-image: url(img/header.png); 
-    margin-top: -2px; 
-}
-
 .logo{
-    height: 12vh;
-    width: 25vw;
-    padding: 2% 0px 0px 4%;
     background-size: contain;
     background-repeat: no-repeat;
     background-position: left center;
 }
 
-.box1_position{
-    display: block;
-    margin-top: 20vw;
-    margin-left: 5vw;
+nav{
+    position: fixed;
+    width: 100vw;
+    line-height: 60px;
 }
 
-.box2_position{
-    display: inline-block;
-    margin-top: 10vw;
-    margin-left: 52vw;
+.section_whoweare{
+    background-image: url(img/header.png); 
+    margin-top: -2px; 
 }
 
 .section_whyus{
@@ -271,19 +262,72 @@ font-weight: 1;
 /*code for pc*/
 
 @media only screen and (min-width:864px) {
-    .section_whoweare{
-        height: 53.3vw;
-        width:100vw;
-        background-size: cover;
+    nav{
+        position: fixed;
+        width: 100vw;
+        line-height: 60px;
+    }
+    
+    .nav_bar{
+    height: 10vw;
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    }
+
+    .logo {
+        height: 5vw;
+        padding-left: 5vw;
+        background-size: contain;
         background-repeat: no-repeat;
         background-position: bottom left;
     }
 
-    .logo {
-        height: 6.401vw;
-        width: 25vw;
-        padding: 2% 0px 0px 5%;
-        background-size: contain;
+    .logo img{
+        width: auto;
+        height: 100%;;
+    }
+
+    .menu{
+        height: 5vw;
+    }
+
+    nav ul{
+        float: right;
+        margin: 0;
+        padding-right: 6.5vw;
+        padding-top: 1.4vw;
+        height: 100%;
+        width: auto;
+    }
+    
+    nav ul li{
+        display: inline-block;
+        padding-right: 2.5vw;
+        height: 80%;  
+    }
+
+    nav ul li a{
+        color: whitesmoke;
+        font-size: 1.5vw;
+    }
+
+    .box1_position{
+        display: inline-block;
+        margin-top: 27vw;
+        margin-left: 5vw;
+    }
+    
+    .box2_position{
+        display: inline-block;
+        margin-top: 10vw;
+        margin-left: 52vw;
+    }
+
+    .section_whoweare{
+        height: 53.3vw;
+        width:100vw;
+        background-size: cover;
         background-repeat: no-repeat;
         background-position: bottom left;
     }
