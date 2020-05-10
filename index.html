@@ -10,6 +10,7 @@
     <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
     <link rel="stylesheet " href="style.css ">
     <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/bfiessinger/scrollToSmooth@latest/dist/scrolltosmooth.min.js"></script>
 </head>
 
 
@@ -22,43 +23,45 @@
                 </div>
                 <div style="flex-grow: 7" class="menu">
                     <ul>
-                        <li><a href="#whoweare">Why US</a></li>
+                        <li><a href="#whoweare">Why Us</a></li>
                         <li><a href="#projects">Project</a></li>
                         <li><a href="#contacts">Contact</a></li>
                     </ul>
                 </div>
             </div>
         </nav>
-        <div class="section_whoweare" id = "whoweare">
-            <div class="box1_position">
-                <div class="header_text">
-                <h2>let mind flow<br>let's mind blow</h2>
-                </div>
-                <div class="common_text">
-                <h1>For over 10 years in Branding, Creative & Advertising, <br>
-                    we stay BOLD, stay YOUNG, stay CREATIVE,<br> to serve you best.
-                </h1>
-                </div>
-            </div>
-        </div>
-        <div class="section_whyus" id="whyus">
-            <div class="box2_position">
-                <div class="header_text">
-                <h2>why us</h2>
-                </div>
-                <div class="common_text">
-                <h1>Enthusiasm is what keep things going. That’s the <br>reason we’re here. We do what we passion and <br>passion
-                    of what we do. Mind blow idea with one of<br> a kind art direction to help the brand grow and glow.
-                </h1>
+        <section  id = "whoweare">
+            <div class="section_whoweare">
+                <div class="box1_position">
+                    <div class="header_text">
+                    <h2>let mind flow<br>let's mind blow</h2>
+                    </div>
+                    <div class="common_text">
+                    <h1>For over 10 years in Branding, Creative & Advertising, <br>
+                        we stay BOLD, stay YOUNG, stay CREATIVE,<br> to serve you best.
+                    </h1>
+                    </div>
                 </div>
             </div>
-        </div>
-        <div class="section_projects" id="projects">
-
-        </div>
-        <div class="section_contacts" id="contacts">
-            
-        </div>
+            <div class="section_whyus" id="whyus">
+                <div class="box2_position">
+                    <div class="header_text">
+                    <h2>why us</h2>
+                    </div>
+                    <div class="common_text">
+                    <h1>Enthusiasm is what keep things going. That’s the <br>reason we’re here. We do what we passion and <br>passion
+                        of what we do. Mind blow idea with one of<br> a kind art direction to help the brand grow and glow.
+                    </h1>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section  id="projects">
+            <div class="section_projects"></div>
+        </section>
+        <section  id="contacts">
+            <div class="section_contacts"></div>
+        </section> 
     </div>
     <script type="text/javascript">
         $(window).on("scroll",function()
@@ -71,6 +74,15 @@
            }
         }) 
     </script>
+    <script>
+    var smoothScroll = new scrollToSmooth('a', {
+            easing: 'easeInOutBack',
+        duration: 650,
+        durationRelative: true,
+        updateURL: true,
+    })
+    smoothScroll.init();
+</script>
 </body>
 
 </html>
